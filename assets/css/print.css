@@ -1,0 +1,77 @@
+
+body {
+	background: white;
+	font-family: Arial;
+	padding: 1cm 2cm;
+	width: 19cm;
+	font-size: 12px;
+	margin: auto;
+}
+h1 {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #1ac6ff;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+/* logo */
+.logo {
+	text-align: center;
+	margin: 0.5cm 0;
+}
+.logo h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.logoku img {
+	max-height: 100px;
+	width: auto;
+}
+/* foto */
+.foto {
+	text-align: center;
+}
+.foto h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.foto img {
+	max-width: 190px;
+	height: auto;
+}
+table {
+	/* border: solid thin #000; */
+	/* border-collapse: collapse; */
+	width: 100%;
+}
+.tanpa-border td, .tanpa-border th {
+	border:none;
+	text-align: left;
+	vertical-align: top;
+	padding: 0;
+}
+.cetak td, .cetak th {
+	border-bottom: solid thin #eee;
+	text-align: left;
+	vertical-align: top;
+	padding: 0.1cm;
+}
+.border td, .border th {
+	border: solid thin #000;
+}
+.cetak {
+	padding: 0.2cm 0;
+}
+th {
+	background-color: #EEE;
+}
+.tengah-tebal {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.justify {
+	text-align: justify;
+}

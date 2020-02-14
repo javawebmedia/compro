@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Font Awesome Icon Picker plugin for Bootstrap</title>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="dist/css/fontawesome-iconpicker.min.css" rel="stylesheet">
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<div class="container">
+<div class="col-md-12">
+  <div class="form-group lead">
+      <label>Default</label>
+      <div class="col-md-8">
+      <input class="form-control icp icp-auto" value="fa-anchor" type="text" />
+      </div>
+      <div class="col-md-4"><i class="fa fa-github fa-1x picker-target"></i></div>
+  </div>
+</div>
+
+<div class="col-md-12">
+  <div class="form-group lead">
+      <label>Default</label>
+      <div class="col-md-8">
+      <input class="form-control icp icp-auto" value="fa-anchor" type="text" />
+      </div>
+      <div class="col-md-4"><i class="fa fa-github fa-1x picker-target"></i></div>
+  </div>
+</div>
+
+</div>
+</body>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="dist/js/fontawesome-iconpicker.js"></script>
+<script>
+    $(function() {      
+        $('.icp-auto').on('click', function() {
+            $('.icp-auto').iconpicker();
+            
+        }).trigger('click');
+
+
+        // Events sample:
+        // This event is only triggered when the actual input value is changed
+        // by user interaction
+        $('.icp').on('iconpickerSelected', function(e) {
+            $('.lead .picker-target').get(0).className = 'picker-target fa-1x ' +
+                    e.iconpickerInstance.options.iconBaseClass + ' ' +
+                    e.iconpickerInstance.getValue(e.iconpickerValue);
+        });
+    });
+</script>
+</body>
+
+</html>

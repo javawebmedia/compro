@@ -1,0 +1,341 @@
+body.rtl .col-md-1,
+body.rtl .col-md-2,
+body.rtl .col-md-3,
+body.rtl .col-md-4,
+body.rtl .col-md-5,
+body.rtl .col-md-6,
+body.rtl .col-md-7,
+body.rtl .col-md-8,
+body.rtl .col-md-9,
+body.rtl .col-md-10,
+body.rtl .col-md-11,
+body.rtl .col-md-12 {
+    float: right !important;
+}
+
+
+body.rtl .h-contact {
+    float: right;
+}
+body.rtl .header-style-2 .donate-option {
+    float: left;
+}
+body.rtl .navbar-nav>li {
+    float: right;
+}
+body.rtl .navbar-header {
+    float: right;
+}
+body.rtl .header-style-2 .main-menu .navbar-collapse, body.rtl .header-style-3 .main-menu .navbar-collapse {
+    float: left;
+}
+body.rtl .navbar-nav {
+    float: right;
+}
+body.rtl .cart-option {
+    float: right;
+}
+body.rtl .dropdown-menu li {
+    text-align: right;
+}
+body.rtl .cart-dropdown-menu {
+    left: -10%;
+    right: auto;
+}
+body.rtl .slider-option.slider-two .slider-content {
+    text-align: left;
+}
+body.rtl .slider-option.slider-three .slider-content {
+    text-align: center;
+}
+body.rtl .recent-project .button:after {
+    left: -6px;
+    right: auto;
+}
+body.rtl .our-services-content>a .fa {
+    padding-right: 4px;
+    padding-left: 0;
+}
+body.rtl .price-left {
+    float: right;
+}
+body.rtl .price-right {
+    float: left;
+}
+body.rtl .cause-content .progress-bar {
+    float: right;
+}
+body.rtl .twitter-icon {
+    float: right;
+    margin: 4px 0px 0px 15px;
+}
+body.rtl .thumbnail-img {
+    float: right;
+    margin: 4px 0px 0px 15px;
+}
+body.rtl .address li .fa {
+    float: right;
+    margin: 4px 0px 0px 15px;
+}
+body.rtl .social-box {
+    float: left;
+}
+body.rtl .copyright-txt {
+    float: right;
+}
+body.rtl .dropdown-menu{
+    left: auto;
+}
+body.rtl .cart-img, .cart-content {
+    float: left;
+}
+body.rtl .checkout-btn {
+    float: left;
+}
+body.rtl .total-price {
+    float: right;
+}
+body.rtl .btn-default:before {
+    top: -170%;
+    left: -79%;
+}
+body.rtl .btn-default:after {
+    top: -20%;
+    right: -112%;
+}
+body.rtl .btn-default:hover:before {
+    top: -95%;
+    left: -26%;
+}
+body.rtl .btn-default:hover:after {
+    right: -18%;
+}
+body.rtl .date-box {
+    right: 0;
+    left: auto;
+}
+body.rtl .pull-right {
+    float: left !important;
+}
+body.rtl .search-box {
+    float: right;
+    margin: 20px 0px 14px 14px;
+}
+body.rtl .slider-option .slider-content {
+    text-align: right;
+}
+body.rtl .services-items i {
+    float: right;
+    margin-left: 15px;
+}
+body.rtl .working-content>a .fa {
+    padding-right: 4px;
+    padding-left: 0;
+}
+body.rtl .donation-section .progress-bar {
+    float: right;
+}
+body.rtl .count-left {
+    float: right;
+}
+body.rtl .count-right {
+    float: left;
+}
+body.rtl .donate-btn .btn-default .fa {
+    padding-right: 0px;
+    padding-left: 6px;
+    float: right;
+    margin-top: 4px;
+}
+body.rtl header.header-style-2.home-box-style .main-menu .navbar-collapse {
+    float: none;
+}
+body.rtl header.header-style-2.one-page .search-box {
+    margin: 24px 0px 14px 14px;
+}
+body.rtl .contact-form .form-control {
+    padding-right: 25px;
+    padding-left: 0;
+}
+body.rtl .page-header-content .breadcrumb>li+li:before {
+    padding: 5px 2px 0 6px;
+    float: right;
+}
+body.rtl .main-menu .nav>.dropdown ul li:hover ul.sub-sub-menu {
+    left: auto;
+    right: 100%;
+}
+body.rtl .widget-content .form-group .fa, .shop-widget-content .form-group .fa {
+    left: 20px;
+    right: auto;
+}
+body.rtl .shop-widget-content .panel-group .panel-title span {
+    float: left;
+}
+body.rtl .small-product-img {
+    margin-right: 0;
+    float: right;
+    margin-left: 14px;
+}
+body.rtl .price-rang .filter-btn {
+    float: left;
+}
+body.rtl .price-rang .price {
+    float: right;
+    margin: 3px 0px 0 6px;
+}
+body.rtl .low-price span, body.rtl .high-price span {
+    float: right;
+}
+
+body.rtl .high-price {
+    display: inline-block;
+    margin: 3px 15px 0 0px;
+}
+body.rtl .event-box .form-control {
+    padding-right: 20px;
+    padding-left: 0;
+}
+body.rtl .catagories li a span {
+    float: left;
+}
+body.rtl .popular-news-img {
+    float: right;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+body.rtl .single-date-option, .single-map {
+    float: right;
+}
+body.rtl .single-date li .fa {
+    float: right;
+    margin-right: 0;
+    margin-left: 14px;
+}
+body.rtl .event-author-option {
+    float: right;
+}
+body.rtl .event-share-option {
+    float: left;
+}
+body.rtl .catagories li i {
+    transform: rotate(180deg);
+}
+body.rtl .quate-para:after {
+    right: 1%;
+}
+body.rtl .quate-para {
+    padding: 0 37px 0px 0px;
+}
+body.rtl .single-blog-bottom .tags {
+    float: right;
+}
+body.rtl .comments-image {
+    float: right;
+    margin-left: 12px;
+    margin-right: 0;
+}
+body.rtl .reply-icon {
+    float: left;
+}
+body.rtl .comments-author-name {
+    float: right;
+}
+.comments-items:nth-child(3) {
+    margin-right: 90px;
+    margin-left: 0;
+}
+body.rtl .comments-form .form-control {
+    padding-right: 20px;
+    padding-left: 0;
+}
+body.rtl .contact-address li i {
+    float: right;
+    margin-left: 10px;
+}
+body.rtl .scroll-img {
+    left: 3%;
+    right: auto;
+}
+body.rtl .header-style-1 .search-box {
+    float: right;
+    margin: 14px 0px 14px 14px;
+}
+body.rtl .widget-content .form-group .fa, body.rtl .shop-widget-content .form-group .fa {
+    left: 20px;
+    right: auto;
+}
+body.rtl .shop-grid-view .collection-img {
+    float: right;
+}
+body.rtl .shop-grid-view .collection-content {
+    text-align: right;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+    body.rtl header .main-menu ul li a {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 767px) {
+
+     body.rtl .navbar-toggle{
+        float: left;
+    }
+    body.rtl header .main-menu .navbar-header {
+        float: right;
+        width: 100%;
+    }
+    body.rtl header .main-menu .navbar-brand {
+        padding: 0px 35px 0px 0px;
+        float: right;
+    }
+    body.rtl .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0;
+    }
+    body.rtl header .navbar-nav>li {
+        float: none;
+        width: 100%;
+        display: inline-block;
+        text-align: right;
+    }
+    body.rtl footer .footer-bottom p {
+    float: none;
+}
+    body.rtl footer .footer-bottom .social-default {
+    float: none;
+}
+    body.rtl .subscribe h3 {
+    float: none;
+    text-align: center;
+}
+    body.rtl .subscribe form input:last-child {
+    float: right;
+}
+    body.rtl .navbar-nav>li.dropdown a span {
+    float: right;
+    margin: 12px 0px 0 10px;
+}
+    body.rtl div#bs-example-navbar-collapse-1 {
+        width: 100%;
+        height: auto;
+    }
+    body.rtl .shop-grid-view .collection-img {
+	    float: none;
+	}
+	
+	body.rtl .shop-grid-view .collection-content {
+	    text-align: center;
+	}
+}
+
+
+
+
+
+
+

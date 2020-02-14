@@ -1,0 +1,53 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 13/02/2017 11:56
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-animals:before { content: "\f100"; }
+.flaticon-call-volume:before { content: "\f101"; }
+.flaticon-droplet:before { content: "\f102"; }
+.flaticon-forest:before { content: "\f103"; }
+.flaticon-greenhouse:before { content: "\f104"; }
+.flaticon-internet:before { content: "\f105"; }
+.flaticon-invention:before { content: "\f106"; }
+.flaticon-light-bulb:before { content: "\f107"; }
+.flaticon-like:before { content: "\f108"; }
+.flaticon-man:before { content: "\f109"; }
+.flaticon-message:before { content: "\f10a"; }
+.flaticon-people:before { content: "\f10b"; }
+.flaticon-phone-call:before { content: "\f10c"; }
+.flaticon-placeholder:before { content: "\f10d"; }
+.flaticon-plumber-tap:before { content: "\f10e"; }
+.flaticon-recycling-symbol:before { content: "\f10f"; }
+.flaticon-rocket-launch:before { content: "\f110"; }
+.flaticon-sprout:before { content: "\f111"; }
+.flaticon-sun:before { content: "\f112"; }
+.flaticon-technology:before { content: "\f113"; }
+.flaticon-time-left:before { content: "\f114"; }
+.flaticon-vibrating-phone:before { content: "\f115"; }
