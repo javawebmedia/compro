@@ -12,4 +12,4 @@ Username: javawebmedia
 Password: javawebmedia
 
 HALAMAN LOGIN
-http://localhost/compro
+http://localhost/compro/login
