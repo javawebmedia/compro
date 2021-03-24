@@ -119,7 +119,7 @@ class Galeri_model extends CI_Model {
 						kategori_galeri.slug_kategori_galeri');
 		$this->db->from('galeri');
 		// Join dg 2 tabel
-		$this->db->join('kategori_galeri','kategori_galeri.id_kategori_galeri = galeri.id_kategori_galeri');
+		$this->db->join('kategori_galeri','kategori_galeri.id_kategori_galeri = galeri.id_kategori_galeri','LEFT');
 		$this->db->join('users','users.id_user = galeri.id_user','LEFT');
 		// End join
 		$this->db->where('jenis_galeri','Galeri');
