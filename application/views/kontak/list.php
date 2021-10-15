@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h3 class="contact-title">HUBUNGI KAMI</h3>
-                        <form action="#" method="POST" class="contact-form">
+                        <form action="<?php echo base_url('kontak') ?>" method="POST" class="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
