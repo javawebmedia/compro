@@ -38,7 +38,7 @@ if($this->session->flashdata('sukses')) {
                             <div class="form-group">
                                 <input type="text" class="form-control" id="subjectId" name="subject" placeholder="Subject">
                             </div>
-                            <textarea class="form-control text-area" rows="3" placeholder="Message"></textarea>
+                            <textarea class="form-control text-area" name="pesan" rows="3" placeholder="Message"></textarea>
                             <button type="submit" class="btn btn-default">Send Email</button>
                         </form>
                     </div>
