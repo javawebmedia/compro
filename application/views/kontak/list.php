@@ -6,11 +6,23 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h3 class="contact-title">HUBUNGI KAMI</h3>
+                        <?php
+echo validation_errors('<div class="alert alert-warning">','</div>');
+
+// Notifikasi
+if($this->session->flashdata('sukses')) {
+    echo '<div class="alert alert-success">';
+    echo $this->session->flashdata('sukses');
+    echo '</div>';
+}
+
+?>
+
                         <form action="<?php echo base_url('kontak') ?>" method="POST" class="contact-form">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="nameId" name="name" placeholder="Full Name">
+                                        <input type="text" class="form-control" id="nameId" name="nama" placeholder="Full Name">
                                     </div>
                                     <!-- .form-group -->
                                 </div>
